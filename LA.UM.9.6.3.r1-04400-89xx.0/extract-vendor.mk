@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
-    
 
 PRODUCT_PACKAGES += \
     CneApp \
@@ -170,7 +169,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \ 
+    vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
     vendor.qti.hardware.data.connection@1.0 \
@@ -184,7 +183,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     libdpmqmihal \
     libconfigdb \
-    liblqe \ 
+    liblqe \
     libnetmgr_common \
     libnetmgr \
     libnlnetmgr \
@@ -203,7 +202,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \ 
+    vendor.qti.hardware.radio.ims@1.2 \
     vendor.qti.hardware.radio.ims@1.3 \
     vendor.qti.hardware.radio.ims@1.4 \
     vendor.qti.hardware.radio.ims@1.5 \
@@ -263,6 +262,5 @@ PRODUCT_PACKAGES += \
     lib-rtpcore \
     lib-rtpsl \
     vendor.qti.imsrtpservice@3.0-service-Impl
-    
 
 
