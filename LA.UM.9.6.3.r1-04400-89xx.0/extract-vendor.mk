@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
@@ -17,49 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imscamera.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libembmsmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmsmmosal.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libembmsmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmsmmparser_lite.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libembmssqlite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmssqlite.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libembmstinyxml.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmstinyxml.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/libmwqemiptablemgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmwqemiptablemgr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/qmi_fw.conf:$(TARGET_COPY_OUT_VENDOR)/etc/qmi_fw.conf \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -110,154 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_legacy.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs-v2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcsbaseimpl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsvtcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtcore.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-rcsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsconfig.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-siputility.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_legacy.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libril-qc-logger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-logger.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.3.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.connection@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.lce@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/xiaomi/mititanium-common-qc/LA.UM.9.6.3.r1-04400-89xx.0/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
@@ -282,5 +90,198 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     embmslibrary \
-    qcrilhook 
+    qcrilhook \
+    vendor.qti.imsrtpservice@3.0 \
+    com.qualcomm.qti.dpm.api@1.0
     
+# system_ext/lib64
+PRODUCT_PACKAGES += \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.api@1.1 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.constants@2.1 \
+    libmwqemiptablemgr \
+    libdpmctmgr \
+    libdpmfdmgr \
+    libdpmtcm \
+    libdpmframework \
+    libdiag_system \
+    vendor.qti.diaghal@1.0 \
+    libembmsmmosal \
+    libembmsmmparser_lite \
+    libembmssqlite \
+    libembmstinyxml \
+    lib-imscamera \
+    libimscamera_jni \
+    libimsmedia_jni \
+    lib-imsvideocodec \
+    lib-imsvtextutils \
+    lib-imsvt \
+    lib-imsvtutils 
+
+# system_ext/bin
+PRODUCT_PACKAGES += \
+    dpmd
+
+# vendor/bin
+PRODUCT_PACKAGES += \
+    adpl \
+    ATFWD-daemon \
+    netmgrd \
+    port-bridge \
+    qrtr-cfg \
+    qrtr-lookup \
+    qrtr-ns \
+    qti \
+    rmt_storage \
+    tftp_server \
+    cnd \
+    dpmQmiMgr \
+    irsc_util \
+    imsdatadaemon \
+    imsqmidaemon \
+    imsrcsd \
+    ims_rtp_daemon
+
+# vendor/bin/hw
+PRODUCT_PACKAGES += \
+    qcrild
+
+# vendor/both
+PRODUCT_PACKAGES += \
+    libdiag \
+    libdsi_netctrl \
+    libdsutils \
+    libidl \
+    libpdmapper \
+    libqcci_legacy \
+    libqdi \
+    libqdp \
+    libqmi_cci \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmi_encdec \
+    libqmi_legacy \
+    libqmiservices \
+    libqmi \
+    libmdmdetect
+
+# vendor/lib64
+PRODUCT_PACKAGES += \
+    libcacertclient \
+    libcne \
+    libcneapiclient \
+    libcneoplookup \
+    libcneqmiutils \
+    libwms \
+    libwqe \
+    libxml \
+    vendor.qti.hardware.cacert@1.0 \
+    vendor.qti.hardware.slmadapter@1.0 \
+    vendor.qti.data.factory@2.0 \
+    vendor.qti.data.factory@2.1 \
+    vendor.qti.data.factory@2.2 \
+    vendor.qti.data.factory@2.3 \
+    vendor.qti.data.mwqem@1.0 \
+    vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.data.slm@1.0 \
+    vendor.qti.hardware.data.cne.internal.api@1.0 \ 
+    vendor.qti.hardware.data.cne.internal.constants@1.0 \
+    vendor.qti.hardware.data.cne.internal.server@1.0 \
+    vendor.qti.hardware.data.connection@1.0 \
+    vendor.qti.hardware.data.connection@1.1 \
+    vendor.qti.hardware.data.iwlan@1.0 \
+    vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
+    vendor.qti.hardware.data.dynamicdds@1.0 \
+    vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.hardware.data.qmi@1.0 \
+    vendor.qti.latency@2.0 \
+    vendor.qti.latency@2.1 \
+    libdpmqmihal \
+    libconfigdb \
+    liblqe \ 
+    libmdmdetect \
+    libnetmgr_common \
+    libnetmgr \
+    libnlnetmgr \
+    liboemaids_vendor \
+    libqcmaputils \
+    libqrtr \
+    libqsocket \
+    libril-qc-ltedirectdisc \
+    libril-qc-radioconfig \
+    libril-qcril-hook-oem \
+    librilqmiservices \
+    libsettings \
+    libsystem_health_mon \
+    vendor.qti.hardware.data.lce@1.0 \
+    vendor.qti.hardware.radio.am@1.0 \
+    vendor.qti.hardware.radio.atcmdfwd@1.0 \
+    vendor.qti.hardware.radio.ims@1.0 \
+    vendor.qti.hardware.radio.ims@1.1 \
+    vendor.qti.hardware.radio.ims@1.2 \ 
+    vendor.qti.hardware.radio.ims@1.3 \
+    vendor.qti.hardware.radio.ims@1.4 \
+    vendor.qti.hardware.radio.ims@1.5 \
+    vendor.qti.hardware.radio.ims@1.6 \
+    vendor.qti.hardware.radio.ims@1.7 \
+    vendor.qti.hardware.radio.lpa@1.0 \
+    vendor.qti.hardware.radio.lpa@1.1 \
+    vendor.qti.hardware.radio.qcrilhook@1.0 \
+    vendor.qti.hardware.radio.qtiradio@1.0 \
+    vendor.qti.hardware.radio.qtiradio@2.0 \
+    vendor.qti.hardware.radio.qtiradio@2.1 \
+    vendor.qti.hardware.radio.qtiradio@2.2 \
+    vendor.qti.hardware.radio.qtiradio@2.3 \
+    vendor.qti.hardware.radio.qtiradio@2.4 \
+    vendor.qti.hardware.radio.uim@1.0 \
+    vendor.qti.hardware.radio.uim@1.1 \
+    vendor.qti.hardware.radio.uim@1.2 \
+    vendor.qti.hardware.radio.uim_remote_client@1.0 \
+    vendor.qti.hardware.radio.uim_remote_client@1.1 \
+    vendor.qti.hardware.radio.uim_remote_client@1.2 \
+    vendor.qti.hardware.radio.uim_remote_server@1.0 \
+    libqcrilFramework \
+    libril-qc-hal-qmi \
+    qcrild_librilutils \
+    libqcrildatactl \
+    libril-qc-logger \
+    qtimutex \
+    qtibus \
+    com.qualcomm.qti.imscmservice@2.0 \
+    com.qualcomm.qti.imscmservice@2.1 \
+    com.qualcomm.qti.imscmservice@2.2 \
+    com.qualcomm.qti.uceservice@2.0 \
+    com.qualcomm.qti.uceservice@2.1 \
+    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.uceservice@2.3 \
+    lib-imscmservice \
+    lib-imsqimf \
+    lib-imsrcsbaseimpl \
+    lib-imsrcs-v2 \
+    lib-imsSDP \
+    lib-imsxml \
+    lib-rcsconfig \
+    lib-siputility \
+    lib-uceservice \
+    vendor.qti.ims.callcapability@1.0 \
+    vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@2.0 \
+    vendor.qti.ims.rcsconfig@2.1 \
+    lib-imsdpl \
+    lib-imsvtcore \
+    librcc \
+    lib-rtpcommon \
+    lib-rtpcore \
+    lib-rtpsl \
+    vendor.qti.imsrtpservice@3.0-service-Impl
+    
+
+
