@@ -92,10 +92,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qcrilhook \
     vendor.qti.imsrtpservice@3.0 \
-    com.qualcomm.qti.dpm.api@1.0
-    
-# system_ext/lib64
-PRODUCT_PACKAGES += \
+    com.qualcomm.qti.dpm.api@1.0 \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
@@ -118,14 +115,8 @@ PRODUCT_PACKAGES += \
     lib-imsvideocodec \
     lib-imsvtextutils \
     lib-imsvt \
-    lib-imsvtutils 
-
-# system_ext/bin
-PRODUCT_PACKAGES += \
-    dpmd
-
-# vendor/bin
-PRODUCT_PACKAGES += \
+    lib-imsvtutils \
+    dpmd \
     adpl \
     ATFWD-daemon \
     netmgrd \
@@ -142,14 +133,8 @@ PRODUCT_PACKAGES += \
     imsdatadaemon \
     imsqmidaemon \
     imsrcsd \
-    ims_rtp_daemon
-
-# vendor/bin/hw
-PRODUCT_PACKAGES += \
-    qcrild
-
-# vendor/both
-PRODUCT_PACKAGES += \
+    ims_rtp_daemon \
+    qcrild \
     libdiag \
     libdsi_netctrl \
     libdsutils \
@@ -167,10 +152,7 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqmi \
-    libmdmdetect
-
-# vendor/lib64
-PRODUCT_PACKAGES += \
+    libmdmdetect \
     libcacertclient \
     libcne \
     libcneapiclient \
@@ -203,7 +185,6 @@ PRODUCT_PACKAGES += \
     libdpmqmihal \
     libconfigdb \
     liblqe \ 
-    libmdmdetect \
     libnetmgr_common \
     libnetmgr \
     libnlnetmgr \
