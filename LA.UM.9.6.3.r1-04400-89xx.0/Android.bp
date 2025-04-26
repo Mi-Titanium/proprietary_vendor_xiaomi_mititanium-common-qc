@@ -1205,8 +1205,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-# lib 64
-
 cc_prebuilt_library_shared {
 	name: "libcacertclient",
 	owner: "xiaomi",
