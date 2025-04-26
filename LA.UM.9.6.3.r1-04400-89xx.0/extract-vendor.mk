@@ -138,7 +138,6 @@ PRODUCT_PACKAGES += \
     libdsi_netctrl \
     libdsutils \
     libidl \
-    libpdmapper \
     libqcci_legacy \
     libqdi \
     libqdp \
